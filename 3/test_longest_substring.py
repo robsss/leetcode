@@ -1,7 +1,7 @@
 from longes_substring_without_repeating_chars import Solution
 
 class Test_Solution:
-    def test_1():
+    def test_1(self):
         sln = Solution()
         assert sln.lengthOfLongestSubstring("abcabcbb") == 3
         assert sln.lengthOfLongestSubstring("bbbbb") == 1
