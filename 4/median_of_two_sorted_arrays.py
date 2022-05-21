@@ -71,6 +71,7 @@ def test_1():
 
 def main():
     """main func"""
+    import pdb; pdb.set_trace()
     test_1()
 
 
