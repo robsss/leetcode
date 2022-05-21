@@ -5,10 +5,10 @@ class TestSolution():
         sln = Solution()
         nums1 = [1,3]
         nums2 = [2]
-        assert sln.findMedianSortedArrays(nums1, nums2) == 2
+        assert sln.find_median_sorted_arrays(nums1, nums2) == 2
 
     def test_2(self):
         sln = Solution()
         nums1 = [1,2]
         nums2 = [3,4]
-        assert sln.findMedianSortedArrays(nums1, nums2) == 2.5
+        assert sln.find_median_sorted_arrays(nums1, nums2) == 2.5
